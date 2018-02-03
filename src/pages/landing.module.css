@@ -1,0 +1,203 @@
+.contentContainer {
+  display: flex;
+  flex-flow: row;
+}
+
+.largeItem {
+  flex: 0 0 33%;
+  border: 1px solid black;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 66%;
+}
+
+.smallItem {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.userInfoContainer {
+  max-width: 316px;
+  text-align: center;
+  background-color: white;
+  margin: 24px auto;
+  padding-top: 50px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.userInfoImgContainer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.userInfoPic {
+  width: 90px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b6b6b;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #b6b6b6;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #b6b6b6;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #6b6b6b;
+  margin-left: 7px;
+}
+
+.userInfoBandwidthContainer {
+  margin-top: 26px;
+  text-align: left;
+}
+
+.userInfoBandwidthGrey {
+  width: 310.4px;
+  height: 11px;
+  border-radius: 9px;
+  background-color: #f4f4f4;
+}
+
+.userInfoBandwidthColor {
+  width: 177px;
+  height: 11px;
+  border-radius: 9px;
+  background-image: linear-gradient(271deg, #e8d500, #a9fcab);
+}
+
+.userInfoCurrentProjectsContainer {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.userInfoCurrentProjectName {
+  max-width: 322px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.userInfoCurrentProjectLogo {
+  margin-left: 10px;
+  width: 48px;
+}
+
+.userInfoCurrentProjectIcon {
+  width: 8px;
+  text-align: right;
+  position: absolute;
+  right: 16px;
+}
+
+.userInfoSkilletsetContainer {
+  margin-top: 32px;
+}
+
+.skillChip {
+  border-radius: 15px;
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.skillChipText {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #6b6b6b;
+}
+
+.userInfoGoalsContainer {
+  margin-top: 38px;
+}
+
+.userInfoGoalLabel {
+  max-width: 322px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.userInfoGoalText {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #6b6b6b;
+  margin-bottom: 4px;
+}
+
+.userInfoGoalDaysLeft {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: rgba(107, 107, 107, 0.75);
+}
+
+.userInfoGoalPercentLeftGreen {
+  width: 52px;
+  height: 45px;
+  border-radius: 4px;
+  background-image: linear-gradient(132deg, #85de28, #ded428);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+}
+
+.userInfoGoalPercentLeftYellow {
+  width: 52px;
+  height: 45px;
+  border-radius: 4px;
+  background-image: linear-gradient(132deg, #d9de28, #deba28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+}
