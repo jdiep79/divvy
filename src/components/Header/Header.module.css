@@ -1,0 +1,14 @@
+.container {
+  background: white;
+}
+
+.linkContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  max-width: 350px;
+}
+
+.link {
+  padding-left: 30px;
+}
