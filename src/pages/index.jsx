@@ -134,12 +134,9 @@ const LandingPage = () => (
 
 
       <div className={styles.small}>
-          <div className={styles.smallItem}>
-              2 (Small)
-          </div>
-          <div className={styles.smallItem}>
-              3 (Small)
-          </div>
+        <img
+          className={styles.dashboardContent}
+          src="https://s3.amazonaws.com/tribalscale-hackathon/Screen+Shot+2018-02-03+at+3.37.06+PM.png" />
       </div>
     </main>
   </div>
