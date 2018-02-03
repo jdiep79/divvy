@@ -14,7 +14,7 @@ const Header = () => (
           <Link to="/" style={{ color: '#00779B', textDecoration: 'none'}}>Dashboard</Link>
         </div>
         <div className={styles.link}>
-          <Link to="/" style={{ color: '#00779B', textDecoration: 'none'}}>Projects</Link>
+          <Link to="/projects" style={{ color: '#00779B', textDecoration: 'none'}}>Projects</Link>
         </div>
         <div className={styles.link}>
           <Link to="/" style={{ color: '#00779B', textDecoration: 'none'}}>Directory</Link>
